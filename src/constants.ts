@@ -11,7 +11,7 @@ export const EXPERIENCE_LIST_ITEMS = [
   `Spark plug and coil pack install`,
   `Intake manifold installation `,
   `Exhaust manifold installation`,
-  `Motor Mount installation`,
+  `Motor mount installation`,
   `Oil pan replacement`,
   `Transmission pan replacement`,
   `Exhaust system removal and reassembly`,

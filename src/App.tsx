@@ -1,26 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import kyle from "/kyle.lewis.headshot.jpg";
 import "./App.css";
-import {
-  Avatar,
-  Box,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemText,
-  Typography,
-} from "@mui/material";
+import { Box, List, Typography } from "@mui/material";
 import "@fontsource/roboto/700.css";
 import "@fontsource/roboto/300.css";
-import WrenchIcon from "@mui/icons-material/Build";
 import { ExperienceListItem } from "./ExperienceListItem";
 import { EXPERIENCE_LIST_ITEMS } from "./constants";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Box
